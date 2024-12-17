@@ -15,7 +15,7 @@ const CustomAccordian = () => {
                 <div key={i} className='border rounded-2xl mb-4 border-solid border-ghost-gray p-4 border-collapse w-1/2 '>
                     <div className='flex items-center justify-between cursor-pointer'
                         onClick={() => clickHandler(i) }>
-                        <h3 className='text-lg text-deep-blue font-medium leading-[28px]  '> {obj.question}</h3>
+                        <h3 className='text-lg text-deep-blue font-medium leading-[28px]  '> {obj.tittle}</h3>
                         <div>
                             <p className={`duration-500 transition-all ease-in text-black font-bold text-xl ${value === i ? 'rotate-[180deg]' : ''}`}>{<FaqIcon/>}</p>
                         </div>
